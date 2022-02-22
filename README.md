@@ -1,7 +1,7 @@
 # tline
 
-![Crates.io](https://img.shields.io/crates/v/tline)
-![docs.rs](https://img.shields.io/docsrs/tline)
+[![Crates.io](https://img.shields.io/crates/v/tline)](https://docs.rs/tline)
+[![docs.rs](https://img.shields.io/docsrs/tline)](https://crates.io/crates/tline)
 
 
 A framework for simulating 1-dimensional linear and non-linear transmission lines.
