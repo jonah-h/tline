@@ -1,0 +1,20 @@
+[package]
+name = "tline"
+version = "0.1.0"
+authors = ["Jonah Hoffman"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jonah-h/tline"
+description = "A framework for simulating 1-dimensional linear and nonlinear transmission lines"
+keywords = ["simulation", "fdtd"]
+categories = ["simulation", "science"]
+
+[dependencies]
+ndarray = "0.15"
+hdf5 = "0.8"
+hdf5-sys = { version = "0.8", features = ["static"] }
+indicatif = "0.16"
+thiserror = "1.0"
+
+[dev-dependencies]
+physical_constants = "0.4.1"
