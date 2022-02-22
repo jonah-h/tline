@@ -88,16 +88,14 @@ impl<S: Solver> Simulation<S> {
                 array_name: "Voltage".to_string(),
                 input_length: state.voltages.len(),
                 expected_length: total_points + 1,
-            }
-            .into())
+            })
         }
         if state.currents.len() != total_points {
             return Err(Error::BadInit {
                 array_name: "Current".to_string(),
                 input_length: state.voltages.len(),
                 expected_length: total_points,
-            }
-            .into())
+            })
         }
 
         Ok(Self {
